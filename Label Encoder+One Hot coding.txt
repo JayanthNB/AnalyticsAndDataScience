@@ -1,0 +1,31 @@
+Please focus on UNDERSTANDING first before jumping into the tools! Not only will you build a strong foundation, you will appreciate the tools so much more because they abstract all the busy computational work for you.
+
+--CONTEXT
+For example, let's say we predict housing price. Intuitively, the area of the house, and the city seem like good variables. The city variable however is not numerical so we cannot feed it directly into a model as an input. 
+
+To simplify the problem a bit more, let's assume we have 3 cities: LA, SF, and SD. How do we represent these cities numerically in a matrix so we can feed it in to the model?
+
+--UNDERSTANDING
+Well, one way is turn the city into multiple Boolean variables. Sound good? In this case, "city" turn into "is_LA", "is_SF", "is_SD".
+city = 'LA' ==> 1, 0, 0
+city = 'SF' ==> 0, 1, 0
+city = 'SD' ==> 0, 0, 1
+
+--TOOLS
+In Python, 
+from sklearn.preprocessing
+1. Turn string into integer:
+"LabelEncoder" transforms ("LA", "SF", "SD") => (0, 1, 2) 
+2. Create Boolean variables:
+"OneHotEncoder" transforms:
+0 ==> 1, 0, 0
+1 ==> 0, 1, 0
+2 ==> 0, 0, 1
+
+In Spark,
+from pyspark.ml.feature import StringIndexer, OneHotEncoder
+
+in R,
+transformed_city <- factor(city)
+
+Transform 500 cities? No problem, these codes take care of it all! Beautiful 

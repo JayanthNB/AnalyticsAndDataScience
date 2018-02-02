@@ -1,0 +1,12 @@
+Kafka - originally built at linkedin
+
+Word frequencies, N-grams - for sentiment analysis
+
+Data cleaning, data processing - open source such as openrefine and Optimus
+
+Big data distrubution - Cloudera, Hortonworks, MapR
+
+Interview tips:
+-Know what the company is about and how they generate profit. 
+-How you contribute your skills to company's goals?
+-How do you add value to the company?

@@ -1,0 +1,16 @@
+In the past weeks, I have collected materials for some #DataScience topics (mostly free). Thanks to my friends who gave me these suggestions. Here is the collection of those collections:
+
+- Machine learning: https://lnkd.in/e4ij_is
+- Natural language processing: https://lnkd.in/etbXrqv
+- Bayesian statistics: https://lnkd.in/eprtxDg
+- Time series: https://lnkd.in/euKHC6X
+- Neural networks: https://lnkd.in/dpYHQTi
+- Long Short-Term Memory (LSTM): https://lnkd.in/eYp532G
+- Interview questions: https://lnkd.in/dSfgZDs
+- Comparing ML models: https://lnkd.in/et6aNJv
+
+For the future a few weeks, I plan to have a schedule like this:
+
+- Morning - Leetcode: https://lnkd.in/en__DmN
+- Afternoon - CMU 10-701: https://lnkd.in/egY9KfD
+- Evening - Kaggle TF: https://lnkd.in/ekGRmn4
