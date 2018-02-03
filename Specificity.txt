@@ -1,0 +1,5 @@
+Sensitivity - In classification models, senistivity refers to true positive rate
+
+Specificity - In classification models, specificity refers to true negative rate
+
+
